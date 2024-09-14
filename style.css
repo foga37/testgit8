@@ -1,0 +1,185 @@
+.box1 {
+    background-color: violet;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 40px);
+}
+.b1 {
+    background-color: aliceblue;
+    grid-row-start: 2; grid-row-end: 6;
+    grid-column-start: 2; grid-column-end: 8;
+}
+.b2 {
+    background-color: black;
+    grid-row-start: 3; grid-row-end: 5;
+    grid-column-start: 3; grid-column-end: 7;
+}
+.lo {
+    background-color: gray;
+    height: 20px;
+    text-align: center;
+}
+.box2 {
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 40px);
+}
+.b11 {
+    background-color: orange;
+    grid-row-start: 1; grid-row-end: 5;
+    grid-column-start: 2; grid-column-end: 3;
+}
+.b12 {
+    background-color: aqua;
+    grid-row-start: 1; grid-row-end: 5;
+    grid-column-start: 3; grid-column-end: 4;
+}
+.b13 {
+    background-color: yellow;
+    grid-row-start: 1; grid-row-end: 5;
+    grid-column-start: 4; grid-column-end: 4;
+}
+.lo1 {
+    background-color: gray;
+    height: 20px;
+    text-align: center;
+}
+.box3 {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(9, 40px);
+}
+.b21 {
+    background-color: green;
+    grid-column-start: 1; grid-column-end: 6;
+    grid-row-start: 1; grid-row-end: 12;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 40px);
+}
+.b22 {
+    background-color: aqua;
+    grid-column-start: 6; grid-column-end: 11;
+    grid-row-start: 1; grid-row-end: 12;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 40px);
+    text-align: center;
+}
+.b23 {
+    background-color: blue;
+    grid-column-start: 11; grid-column-end: 16;
+    grid-row-start: 1; grid-row-end: 12;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 40px);
+    text-align: center;
+}
+.f {
+    background-color: orange;
+    grid-column-start: 2; grid-column-end: 6;
+    grid-row-start: 3; grid-row-end: 3;
+    text-align: center;
+}
+.f1 {
+    background-color: pink;
+    grid-column-start: 2; grid-column-end: 4;
+    grid-row-start: 4; grid-row-end: 10;
+    text-align: center;
+}
+.f2 {
+    background-color: yellow;
+    grid-column-start: 4; grid-column-end: 6;
+    grid-row-start: 4; grid-row-end: 10;
+    text-align: center;
+}
+.g {
+    background-color: red;
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 3; grid-row-end: 10;
+}
+.g1 {
+    background-color: yellow;
+    grid-column-start: 3; grid-column-end: 5;
+    grid-row-start: 3; grid-row-end: 10;
+    display: grid;
+}
+.g13 {
+    text-align: center;
+    grid-column-start: 1; grid-column-end: 4;
+    grid-row-start: 1; grid-row-end: 4;
+}
+.g2 {
+    background-color: orange;
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 3; grid-row-end: 10;
+}
+.g11 {
+    background-color: orange;
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 3; grid-row-end: 10;
+}
+.g12 {
+    background-color: red;
+    grid-column-start: 3; grid-column-end: 5;
+    grid-row-start: 6; grid-row-end: 10;   
+}
+.j1 {
+    background-color: aqua;
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 7; grid-row-end: 10;
+}
+.j2 {
+    background-color: yellow;
+    grid-column-start: 3; grid-column-end: 5;
+    grid-row-start: 5; grid-row-end: 8;
+}
+.j3 {
+    background-color: orange;
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 3; grid-row-end: 6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 20px);
+}
+.ma {
+    background-color: black;
+    grid-column-start: 2; grid-column-end: 2;
+    grid-row-start: 3; grid-row-end: 4;
+    color: aliceblue;
+    font-style: italic;
+}
+.ma1 {
+    background-color: black;
+    grid-column-start: 1; grid-column-end: 1;
+    grid-row-start: 5; grid-row-end: 6;
+    color: aliceblue;
+    font-style: italic;
+}
+.man {
+    border: solid 4px red;
+    border-bottom: 0cap;
+    display: block;
+}
+.if {
+    background-color: violet;
+    text-align: center;
+}
+.liv {
+    text-align: center;
+    background-color: green;
+}
+.liv1 {
+    text-align: center;
+    background-color: aqua;
+}
+.liv2 {
+    text-align: center;
+    background-color: blue;
+}
+.col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
